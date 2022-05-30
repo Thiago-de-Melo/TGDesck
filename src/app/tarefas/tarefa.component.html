@@ -1,0 +1,26 @@
+<mat-card class="example-card">
+  <mat-card-title>{{ titulo }} - {{ numeroTarefa }}</mat-card-title>
+  <mat-card-subtitle>{{ assunto }}</mat-card-subtitle>
+    <mat-card-content>
+      <p>{{ descricao }}</p>
+      <span class="tipoStatusPrioridadeTarefa">{{ tipoTarefa }}</span>
+      <span class="tipoStatusPrioridadeTarefa">{{ statusTarefa }}</span>
+      <span class="tipoStatusPrioridadeTarefa">{{ prioridadeTarefa }}</span>
+    </mat-card-content>
+    <mat-divider inset></mat-divider>
+    <mat-card-actions>
+      <button mat-button>LIKE</button>
+      <button mat-button>SHARE</button>
+    </mat-card-actions>
+    <!-- <mat-card> -->
+    <mat-card-content>
+      <p class="example-h2">Result</p>  
+      <section class="example-section">
+        <mat-progress-bar
+          class="example-margin"
+          value="value">
+        </mat-progress-bar>
+      </section>
+    </mat-card-content>
+</mat-card>
+ 

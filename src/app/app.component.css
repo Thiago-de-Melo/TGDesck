@@ -1,0 +1,50 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+section {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.section2 {
+    display: flex;
+    max-width: 20%;
+    flex-flow: column;
+    margin-top: 10px;
+    background-color: aquamarine;
+}
+
+div {
+    flex-flow: row;
+}
+
+.mat-stepper-horizontal {
+    margin-top: 8px;
+}
+  
+.mat-form-field {
+    margin-top: 16px;
+}
+
+.botoesOpcoes {
+    margin-right: 20px;
+}
+
+.cardsTarefas {
+    flex-flow: row;
+}
+
+::ng-deep .mat-primary .mat-option.mat-selected:not(.mat-option-disabled) {
+    color: #f7f7f7 !important;
+}
+
+::ng-deep .mat-select-arrow {
+    color: #f7f7f7 !important;
+}
+
+::ng-deep .mat-form-field-label {
+    color: #f7f7f7 !important;
+}
+
+

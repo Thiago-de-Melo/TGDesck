@@ -1,0 +1,20 @@
+mat-card {
+    margin: 10px;
+}
+
+.example-card {
+    max-width: 300px;
+}
+
+.example-section {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    background-color: bisque;
+    height: 30px;
+}
+
+.tipoStatusPrioridadeTarefa {
+    margin-right: 25px;
+    border-bottom: 1px solid aliceblue;
+}
